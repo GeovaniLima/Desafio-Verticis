@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+:root {
+  --bgColor: #F5F8FA;
+  --bgRed: #F1406C;
+  --bgAtention: #723AEA;
+  --bgDay: #50CD89;
+}
+
+html,
+body {
+  height: 100%;
+  overflow-x: hidden;
+  font-family: 'Ubuntu';
+  background-color: var(--bgColor);
+}
+
+.bg-bgColor {
+  background-color: var(--bgColor);
+}
+
+.box {
+  border-radius: 10px;
+  padding-bottom: 15px;
+}
+
+.input_search_box {
+  display: flex;
+  justify-content: end;
+  padding: 30px 0px;
+}
+
+.input_search {
+  width: 300px;
+  max-width: 300px;
+}
+
+.highlighter_red {
+  background-color: var(--bgRed) !important;
+  color: #FFF !important;
+}
+
+.highlighter_atention {
+  background-color: var(--bgAtention) !important;
+  color: #FFF !important;
+}
+
+.highlighter_day {
+  background-color: var(--bgDay) !important;
+  color: #FFF !important;
+}
+
+.box_modal {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1000;
+}
+
+.box_modal_dialog {
+  background-color: #fff;
+  flex: 1;
+  padding: 50px;
+  border-radius: 10px;
+}
+
+.box_modal_lef {
+  flex: 1;
+}
